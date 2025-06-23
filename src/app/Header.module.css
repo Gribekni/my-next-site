@@ -1,0 +1,133 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 16px;
+  position: relative;
+}
+
+.site-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.site-title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 8px;
+}
+
+.site-title {
+  font-size: 2.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #fff;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  text-shadow: 0 2px 12px #000a;
+}
+
+.seek-accent {
+  color: #1e90ff;
+  font-family: inherit;
+  letter-spacing: 1px;
+}
+
+.site-subtitle {
+  font-size: 1.05rem;
+  color: #b0b0b0;
+  margin-top: 2px;
+  margin-left: 2px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.header-spacer {
+  flex: 1;
+}
+
+.search-input {
+  background: #222;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 7px 14px;
+  font-size: 1rem;
+  margin-right: 18px;
+  min-width: 180px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.search-input::placeholder {
+  color: #888;
+  opacity: 1;
+  font-style: italic;
+}
+
+.login-wrapper {
+  position: relative;
+}
+
+.login-btn {
+  background: #ff4d6d;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-btn:hover {
+  background: #d9365e;
+}
+
+.login-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 110%;
+  background: #222;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 18px 20px 14px 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+  flex-direction: column;
+  gap: 10px;
+  min-width: 200px;
+  z-index: 10;
+}
+
+.login-wrapper:hover .login-menu {
+  display: flex;
+}
+
+.login-menu input {
+  padding: 7px 10px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #181818;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.login-submit {
+  background: #1e90ff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.2s;
+}
+
+.login-submit:hover {
+  background: #1565c0;
+}

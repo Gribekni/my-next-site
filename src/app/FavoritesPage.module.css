@@ -1,0 +1,17 @@
+
+.favorites-page {
+  padding: 40px 20px;
+}
+
+.empty-favorites {
+  color: #aaa;
+  font-size: 1.15rem;
+  margin: 40px 0;
+}
+
+.catalog-link {
+  color: #1e90ff;
+  cursor: pointer;
+  text-decoration: underline;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 24px;
+  padding: 40px 20px;
+  min-height: 60vh;
+  justify-items: center;
+}
+
+.genre-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.genre-card {
+  background: #292929;
+  border-radius: 16px;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+  margin-bottom: 12px;
+  position: relative;
+  cursor: pointer;
+}
+
+.genre-card:hover {
+  transform: scale(1.05);
+  background: #333;
+}
+
+.favorite-icon-perm {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s, opacity 0.2s;
+  z-index: 2;
+  background: transparent;
+  pointer-events: auto;
+}
+
+.genre-number {
+  color: #888;
+  font-size: 0.95rem;
+  margin-top: 2px;
+  text-align: center;
+  word-break: break-word;
+  max-width: 110px;
+  line-height: 1.1;
+}
+
+.genre-label {
+  font-size: 1.1rem;
+  color: #fff;
+  text-align: center;
+}
