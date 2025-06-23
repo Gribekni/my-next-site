@@ -47,8 +47,27 @@ header, footer {
   color: #ccc;
 }
 @media (max-width: 700px) {
+  .footer {
+    padding: 18px 4px 10px 4px;
+  }
+
   .footer-links {
     flex-direction: column;
     gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer-link {
+    font-size: 1rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  .footer-copy {
+    font-size: 0.95rem;
+    margin-top: 8px;
+    word-break: break-word;
   }
 }
