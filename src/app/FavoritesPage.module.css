@@ -15,3 +15,8 @@
   text-decoration: underline;
   font-weight: bold;
 }
+@media (max-width: 700px) {
+  .favorites-page {
+    padding: 18px 5px;
+  }
+}
